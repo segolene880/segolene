@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulaire Étudiant</title>
+</head>
+<body style="background-color: #add8e6;">
+  <h2 align="center">Formulaire d'enregistrement des étudiants</h2>
+  <form style="width: 60%; margin: auto; background-color: white; padding: 20px; border-radius: 10px;">
+
+    <label>Nom :</label>
+    <input type="text" name="nom"><br><br>
+
+    <label>Prénom :</label>
+    <input type="text" name="prenom"><br><br>
+
+    <label>Adresse :</label>
+    <input type="text" name="adresse"><br><br>
+
+    <label>Contact :</label>
+    <input type="text" name="contact"><br><br>
+
+    <label>Sexe :</label>
+    <input type="radio" name="sexe" value="masculin"> Masculin
+    <input type="radio" name="sexe" value="féminin"> Féminin<br><br>
+
+    <label>Les diplômes :</label><br>
+    <input type="checkbox" name="diplome" value="CEP"> CEP
+    <input type="checkbox" name="diplome" value="BEPC"> BEPC
+    <input type="checkbox" name="diplome" value="BAC"> BAC
+    <input type="checkbox" name="diplome" value="BTS"> BTS<br><br>
+
+    <label>Votre adresse :</label><br>
+    <textarea rows="3" cols="40" name="adresse_compl"></textarea><br><br>
+
+    <label>Pays :</label><br>
+    <input type="radio" name="pays" value="Benin"> Bénin
+    <input type="radio" name="pays" value="Senegal"> Sénégal
+    <input type="radio" name="pays" value="France"> France<br><br>
+
+    <input type="submit" value="Envoyer">
+    <input type="reset" value="Effacer">
+    <button type="button" onclick="window.close();">Quitter</button>
+
+  </form>
+</body>
+</html>
+
+
